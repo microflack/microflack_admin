@@ -20,7 +20,7 @@ for PACKAGE in $PACKAGES; do
         venv/bin/pip install --upgrade pip
         venv/bin/pip install wheel
     fi
-    ./mkwheel all
+    ./mkwheel
     popd
 done
 
